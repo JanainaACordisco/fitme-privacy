@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Política de Privacidade da extensão FitMe — importar produto.">
+<title>Política de Privacidade | FitMe</title>
+<style>
+:root{color-scheme:light;--ink:#163f35;--accent:#d77c66;--bg:#f8f5f0;--muted:#50615a}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:#25332e;font:16px/1.75 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}header{background:#194e40;color:#fff;padding:28px max(24px,calc((100vw - 900px)/2))}header a{text-decoration:none;color:inherit;font-weight:800;font-size:24px;letter-spacing:-.05em}header a span{color:#e7977f}main{max-width:900px;margin:auto;padding:52px 24px 85px}h1{font:normal clamp(2.5rem,5vw,4rem)/1.1 Georgia,serif;color:var(--ink);letter-spacing:-.035em;margin:0 0 18px}.lead{font-size:1.17rem;color:var(--muted);max-width:680px}.updated{font-size:.9rem;color:var(--muted);border-bottom:1px solid #d9dfd9;padding-bottom:28px;margin-bottom:32px}h2{font:normal 1.65rem/1.2 Georgia,serif;color:var(--ink);margin:40px 0 12px}ul{padding-left:23px}li{margin:7px 0}a{color:#116955;text-underline-offset:3px}.note{background:#e9efe9;border-left:4px solid #326e58;padding:16px 20px;border-radius:0 8px 8px 0}footer{border-top:1px solid #d9dfd9;padding-top:20px;color:var(--muted);font-size:.9rem;margin-top:60px}
+</style>
+</head>
+<body><header><a href="#inicio" aria-label="FitMe — início">fit<span>me</span></a></header><main id="inicio">
+<h1>Política de Privacidade</h1>
+<p class="lead">Como a extensão <strong>FitMe — importar produto</strong> acessa e utiliza informações para auxiliar na escolha de tamanhos.</p>
+<p class="updated">Última atualização: 29 de outubro de 2026</p>
+<h2>1. O que é o FitMe</h2><p>A extensão FitMe — importar produto permite ler informações de um produto na aba ativa do navegador e enviá-las ao aplicativo FitMe executado localmente no computador, para análise de compatibilidade de tamanhos.</p>
+<h2>2. Informações acessadas</h2><p>Quando o usuário solicita a leitura da página, a extensão pode consultar:</p><ul><li>Nome, marca e categoria do produto.</li><li>Descrições, títulos e tabelas de medidas disponíveis na página.</li><li>Rótulos de tamanhos e intervalos de medidas identificados.</li><li>Informações técnicas sobre a extração, como a existência de uma tabela reconhecida.</li></ul><p>A extensão não solicita cadastro de nome, e-mail ou dados de pagamento. A leitura é iniciada pelo usuário, e não há monitoramento contínuo de abas em segundo plano na versão analisada.</p>
+<h2>3. Finalidade</h2><p>Os dados extraídos são mostrados para conferência e, quando o usuário solicita a análise, enviados ao serviço FitMe no endereço local <code>http://localhost:4173/api/analyze</code>. O aplicativo local compara os dados do produto com o perfil corporal cadastrado e gera recomendações. As medidas corporais permanecem sob a gestão do aplicativo local e não precisam ser lidas pela extensão na página visitada.</p>
+<h2>4. Comunicação e compartilhamento</h2><p>Na versão analisada, a extensão envia os dados do produto ao servidor local do FitMe. Não foi identificado envio dessas informações a servidores externos de terceiros, nem uso de serviços de publicidade ou rastreamento de comportamento.</p><p class="note">Esta política descreve a <strong>extensão para navegador</strong>. O aplicativo FitMe local possui armazenamento e recursos próprios, que devem ser avaliados conforme a versão instalada.</p>
+<h2>5. Armazenamento</h2><p>A extensão mantém temporariamente na memória de sua interface os dados do produto lido, sem implementação própria de armazenamento permanente desses dados. O aplicativo local pode registrar análises e perfil corporal no dispositivo do usuário.</p>
+<h2>6. Controle do usuário</h2><p>O usuário escolhe quando ler a página, conferir os dados extraídos e enviá-los ao aplicativo local. Pode fechar ou remover a extensão. Informações armazenadas pelo aplicativo local podem ser gerenciadas pelos recursos de histórico e privacidade disponíveis nessa aplicação.</p>
+<h2>7. Permissões</h2><ul><li><strong>activeTab:</strong> acesso temporário à aba após ação do usuário.</li><li><strong>scripting:</strong> execução do script incluído na extensão para leitura da página selecionada.</li><li><strong>Host localhost:</strong> comunicação com o serviço FitMe no próprio dispositivo.</li></ul>
+<h2>8. Segurança</h2><p>As permissões declaradas são limitadas à leitura solicitada da aba e à comunicação com o serviço local. Recomenda-se manter navegador, extensão e aplicativo atualizados.</p>
+<h2>9. Alterações</h2><p>A política poderá ser atualizada caso as funcionalidades ou práticas de tratamento de dados sejam alteradas. A data de atualização será indicada nesta página.</p>
+<h2>10. Contato</h2><p>Para entrar em contato sobre privacidade, abra uma solicitação no <a href="https://github.com/JanainaACordisco/fitme-privacy/issues">repositório de suporte do FitMe no GitHub</a>. Não inclua informações pessoais ou medidas corporais em solicitações públicas.</p>
+<footer>FitMe · Política de Privacidade da extensão para navegador.</footer></main></body></html>
